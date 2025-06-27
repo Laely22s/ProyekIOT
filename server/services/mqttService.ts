@@ -12,8 +12,8 @@ export class MqttService {
   private readonly MQTT_PORT = parseInt(process.env.MQTT_PORT || "1883");
   private readonly MQTT_USER = process.env.MQTT_USER || "usm";
   private readonly MQTT_PASS = process.env.MQTT_PASS || "usmjaya1";
-  private readonly MQTT_TOPIC = process.env.MQTT_TOPIC || "iot/G.231.22.0002";
-  private readonly DEVICE_ID = "G.231.22.0002";
+  private readonly MQTT_TOPIC = process.env.MQTT_TOPIC || "iot/G.231.22.0024";
+  private readonly DEVICE_ID = "G.231.22.0024";
 
   constructor() {
     this.connect();

@@ -125,7 +125,7 @@ export default function Dashboard() {
               <span className="text-sm font-medium text-slate-600">Device Status</span>
               <div className={`w-3 h-3 rounded-full ${isMqttConnected ? 'bg-green-500 animate-pulse' : 'bg-red-500'}`}></div>
             </div>
-            <p className="text-xs text-slate-500">G.231.22.0002</p>
+            <p className="text-xs text-slate-500">G.231.22.0024</p>
             <p className="text-xs text-slate-400 mt-1">
               Last update: {currentData ? new Date(currentData.timestamp).toLocaleTimeString() : 'Never'}
             </p>
